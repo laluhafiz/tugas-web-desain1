@@ -1,0 +1,134 @@
+
+@charset "utf-8";
+ #wrapper{ width:1000px;
+                   height:750px;
+                   background:grey;
+                   margin-top:10px;
+                   margin-left:10px;
+                   margin-bottom:10px;
+                   margin-right 10px;
+                   padding:10px;        
+}
+#menu { margin-bottom:10px;
+               height:50px;
+               width:750px;
+               background:none;
+               float:left;
+			   
+}
+#pencarian { margin-bottom:10px;
+                      margin-left:50px;
+                      height:50px;
+                      width:200px;
+                      background:red;
+                      float:left;
+					  
+    
+					  
+}
+#logo { margin-bottom:10px;
+             margin-right:20px;
+             height:150px;
+             width:150px;
+             background:0;
+             float:left;
+             clear:both;
+}
+#header { margin-bottom:10px;
+                 height:250px;
+                 width:810px;
+                 background:green;
+                 float:left;
+                } 
+				 
+
+#footer { margin-bottom:10px;
+               height:150px;
+               width:1000px;
+               background:grey;
+               float:left;
+               padding:0px;     
+}          
+#simple {
+    margin: 0;
+    padding: 0;
+    width: 125px;
+}
+
+
+
+#float li {
+    background: linear-gradient(#687587, #404853);
+    float: left;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#float li a {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#float li a:hover {
+  background: #454d59;
+  color: #666;
+}
+form {
+    width:500px;
+    margin:50px auto;
+}
+.search {margin-bottom:10px;
+    margin-left:50px;
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+	margin-left:auto;
+	margin-right:auto;
+          
+                    
+}
+
+.form_contact{
+	display:grid;
+	grid-temolate-columns:1fr 1fr;
+}
+#myform{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:40 px;
+}
+.full-width{
+	grid-columns:1/2;
+	
+.form_contact label {
+	display:block;
+}
+.form_contact p{
+	margin:0;
+}
+.form_contact button,input,textarea{
+	padding:lem;
+}
+button{
+	background:#999;
+	width:100%;
+	border:0;
+}
+button:hover,button:focus{
+	background:gold;
+	outline:0;
+}
+input:focus,text,textarea:focus{
+	outline:3px solid gold;
+	
+    
+    
+    
+    
+
+
+
